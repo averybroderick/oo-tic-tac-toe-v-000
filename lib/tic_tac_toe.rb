@@ -26,9 +26,9 @@ def input_to_index(input)
   return input.to_i - 1
 end
 
-# def move(board, position, char)
-#   board[position] = char
-# end
+def move(position, char)
+  @board[position] = char
+end
 #
 # def position_taken?(board, index)
 #   !(board[index].nil? || board[index] == " ")
